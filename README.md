@@ -1,2 +1,2 @@
 # kubeflow_pipelines_edu
-Learn KF pipelines
+Just learn KF pipelines for project
