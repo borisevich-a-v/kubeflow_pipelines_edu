@@ -1,8 +1,15 @@
 name: Get preprocess data
 description: Gets images and text files from the input pdf file.
 
+inputs:
+- {name: Input 1, type: Directory, description: 'Input pdf'}
+
 implementation:
   container:
-    image: docker.io/tinker000/simple_pipeline:latest
-    command: [python3, preprocess_run.py ]
+    image: docker.io/tinker000/simple_pipeline:lattest2
+    command: [python3, kfp_run.py ]
+    args: [
+        --input-path, { inputValue: Input 1 },
+
+    ]
 

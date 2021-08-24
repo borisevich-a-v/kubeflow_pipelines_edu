@@ -1,6 +1,6 @@
 #!/bin/bash -e
 export image_name=simple_pipeline
-export image_tag=latest
+export image_tag=lattest2
 export full_image_name=${image_name}:${image_tag}
 
 cd "$(dirname "$0")"

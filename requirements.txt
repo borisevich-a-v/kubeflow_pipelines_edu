@@ -25,6 +25,7 @@ kfp==1.7.1
 kfp-pipeline-spec==0.1.9
 kfp-server-api==1.6.0
 kubernetes==12.0.1
+minio==7.1.0
 oauthlib==3.1.1
 packaging==21.0
 protobuf==3.17.3
