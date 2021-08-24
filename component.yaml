@@ -4,4 +4,5 @@ description: Gets images and text files from the input pdf file.
 implementation:
   container:
     image: docker.io/tinker000/simple_pipeline:latest
-    command: [ python, /preprocess/preprocess_run.py ]
+    command: [python3, preprocess_run.py ]
+

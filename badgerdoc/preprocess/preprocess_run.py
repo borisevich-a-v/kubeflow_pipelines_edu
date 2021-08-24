@@ -24,10 +24,9 @@ def configure_logging():
 
 
 @click.command()
-def run(input_path: InputPath(str),
-        output_images_path: OutputPath(str),
-        output_text_path: OutputPath(str)):
+def run():
     LOGGER.info('Begin')
+    LOGGER.info('1')
 
     LOGGER.info('End')
 
